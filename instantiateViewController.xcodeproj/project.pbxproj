@@ -12,6 +12,7 @@
 		0B1960F2225233E700447051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1960F0225233E700447051 /* Main.storyboard */; };
 		0B1960F4225233EC00447051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1960F3225233EC00447051 /* Assets.xcassets */; };
 		0B1960F7225233EC00447051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1960F5225233EC00447051 /* LaunchScreen.storyboard */; };
+		0B1960FF2252340C00447051 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1960FE2252340C00447051 /* PeopleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0B1960F3225233EC00447051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B1960F6225233EC00447051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B1960F8225233EC00447051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1960FE2252340C00447051 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0B1960EC225233E700447051 /* AppDelegate.swift */,
 				0B1960EE225233E700447051 /* ViewController.swift */,
 				0B1960F0225233E700447051 /* Main.storyboard */,
+				0B1960FE2252340C00447051 /* PeopleViewController.swift */,
 				0B1960F3225233EC00447051 /* Assets.xcassets */,
 				0B1960F5225233EC00447051 /* LaunchScreen.storyboard */,
 				0B1960F8225233EC00447051 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				0B1960EF225233E700447051 /* ViewController.swift in Sources */,
 				0B1960ED225233E700447051 /* AppDelegate.swift in Sources */,
+				0B1960FF2252340C00447051 /* PeopleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

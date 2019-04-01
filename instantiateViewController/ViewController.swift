@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let names = ["drama1", "drama2", "drama3", "drama4", "drama5", "drama6"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showPeople(_ sender: Any) {
+        if let controller = storyboard?.instantiateViewController(withIdentifier: "People") as? PeopleViewController {
+         controller.name = names.randomElement()
+            present(controller, animated: true, completion: nil)
+        }
+    }
+    
 }
 
